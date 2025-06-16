@@ -60,7 +60,7 @@ function App() {
   const getHeaderTitle = () => {
     switch (appState.currentView) {
       case 'courses':
-        return 'High School Math Platform';
+        return 'Coburn Math';
       case 'chapters':
         return appState.selectedCourse?.title || 'Course';
       case 'lessons':
@@ -68,7 +68,7 @@ function App() {
       case 'lesson-detail':
         return appState.selectedLesson?.title || 'Lesson';
       default:
-        return 'High School Math Platform';
+        return 'Coburn Math';
     }
   };
 
