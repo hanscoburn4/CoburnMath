@@ -1,0 +1,26 @@
+import { CurriculumLesson } from '../../index';
+
+export const lessonData: CurriculumLesson = {
+  id: '2.5',
+  title: '2.5 Solving Equations Involving Absolute Value',
+  description: 'Under construction - Work with absolute value equations.',
+  learningObjectives: [
+    'Under construction'
+  ],
+  keyConceptsFile: 'algebra1/chapter-02/concepts/absolute-value-equations-concepts.md',
+  thinkingTask: {
+    title: 'Under Construction',
+    content: 'This lesson content is currently under construction. Please check back later for the complete thinking task.'
+  },
+  practice: {
+    title: 'Practice Problems',
+    problems: [
+      { 
+        id: 'p1', 
+        problem: 'Under construction',
+        level: 'beginner',
+        answer: 'Under construction'
+      }
+    ]
+  }
+};
