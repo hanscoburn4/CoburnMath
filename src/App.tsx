@@ -5,7 +5,7 @@ import { CourseGrid } from './components/CourseGrid';
 import { ChapterList } from './components/ChapterList';
 import { LessonList } from './components/LessonList';
 import { LessonDetail } from './components/LessonDetail';
-import { mockCourses } from './courseData';
+import { curriculumCourses } from './curriculum';
 import { AppState, Course, Chapter, Lesson } from './types';
 
 function App() {
@@ -106,7 +106,7 @@ function App() {
       <main>
         {appState.currentView === 'courses' && (
           <CourseGrid 
-            courses={mockCourses} 
+            courses={curriculumCourses} 
             onSelectCourse={handleSelectCourse}
           />
         )}
