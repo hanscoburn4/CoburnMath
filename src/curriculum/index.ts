@@ -112,6 +112,17 @@ import * as algebra1_ch12_lesson5 from './algebra1/chapter-12/lesson-05-distribu
 import * as algebra1_ch12_lesson6 from './algebra1/chapter-12/lesson-06-comparing-sets-data';
 import * as algebra1_ch12_lesson7 from './algebra1/chapter-12/lesson-07-summarizing-categorical-data';
 
+// Import Algebra 2 lesson files
+import * as algebra2_ch1_lesson1 from './algebra2/chapter-01/lesson-01-functions-continuity';
+import * as algebra2_ch1_lesson2 from './algebra2/chapter-01/lesson-02-linearity-intercepts-symmetry';
+import * as algebra2_ch1_lesson3 from './algebra2/chapter-01/lesson-03-extrema-end-behavior';
+import * as algebra2_ch1_lesson4 from './algebra2/chapter-01/lesson-04-sketching-comparing-functions';
+import * as algebra2_ch1_lesson5 from './algebra2/chapter-01/lesson-05-graphing-linear-functions-inequalities';
+import * as algebra2_ch1_lesson6 from './algebra2/chapter-01/lesson-06-special-functions';
+import * as algebra2_ch1_lesson7 from './algebra2/chapter-01/lesson-07-transformations-functions';
+
+import * as algebra2_ch2_lesson1 from './algebra2/chapter-02/lesson-01-solving-linear-equations-inequalities';
+
 // Import Geometry lesson files
 import * as geometry_ch1_lesson1 from './geometry/chapter-01/lesson-01-geometric-system';
 import * as geometry_ch1_lesson2 from './geometry/chapter-01/lesson-02-points-lines-planes';
@@ -455,6 +466,37 @@ export const curriculumCourses: CurriculumCourse[] = [
           geometry_ch10_lesson5.lessonData,
           geometry_ch10_lesson6.lessonData,
           geometry_ch10_lesson7.lessonData
+        ]
+      }
+    ]
+  },
+  {
+    id: 'algebra2',
+    title: 'Algebra 2',
+    description: 'Advanced algebraic concepts including polynomials, rational functions, exponentials, and logarithms.',
+    icon: 'Function',
+    color: 'from-purple-500 to-purple-600',
+    chapters: [
+      {
+        id: 'relations-functions',
+        title: 'Module 1: Relations and Functions',
+        description: 'Explore advanced function concepts and their properties.',
+        lessons: [
+          algebra2_ch1_lesson1.lessonData,
+          algebra2_ch1_lesson2.lessonData,
+          algebra2_ch1_lesson3.lessonData,
+          algebra2_ch1_lesson4.lessonData,
+          algebra2_ch1_lesson5.lessonData,
+          algebra2_ch1_lesson6.lessonData,
+          algebra2_ch1_lesson7.lessonData
+        ]
+      },
+      {
+        id: 'linear-equations-inequalities-systems',
+        title: 'Module 2: Linear Equations, Inequalities, and Systems',
+        description: 'Master advanced techniques for linear equations and systems.',
+        lessons: [
+          algebra2_ch2_lesson1.lessonData
         ]
       }
     ]
