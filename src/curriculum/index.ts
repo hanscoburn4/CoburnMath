@@ -1,3 +1,5 @@
+import { CurriculumLesson } from './index';
+
 export interface CurriculumLesson {
   id: string;
   title: string;
@@ -122,6 +124,16 @@ import * as algebra2_ch1_lesson6 from './algebra2/chapter-01/lesson-06-special-f
 import * as algebra2_ch1_lesson7 from './algebra2/chapter-01/lesson-07-transformations-functions';
 
 import * as algebra2_ch2_lesson1 from './algebra2/chapter-02/lesson-01-solving-linear-equations-inequalities';
+import * as algebra2_ch2_lesson2 from './algebra2/chapter-02/lesson-02-solving-absolute-value-equations-inequalities';
+import * as algebra2_ch2_lesson3 from './algebra2/chapter-02/lesson-03-equations-linear-functions';
+
+import * as algebra2_ch3_lesson1 from './algebra2/chapter-03/lesson-01-graphing-quadratic-functions';
+
+import * as algebra2_ch7_lesson1 from './algebra2/chapter-07/lesson-01-graphing-exponential-functions';
+
+import * as algebra2_ch8_lesson1 from './algebra2/chapter-08/lesson-01-logarithms-logarithmic-functions';
+
+import * as algebra2_ch9_lesson1 from './algebra2/chapter-09/lesson-01-multiplying-dividing-rational-expressions';
 
 // Import Geometry lesson files
 import * as geometry_ch1_lesson1 from './geometry/chapter-01/lesson-01-geometric-system';
@@ -496,7 +508,41 @@ export const curriculumCourses: CurriculumCourse[] = [
         title: 'Module 2: Linear Equations, Inequalities, and Systems',
         description: 'Master advanced techniques for linear equations and systems.',
         lessons: [
-          algebra2_ch2_lesson1.lessonData
+          algebra2_ch2_lesson1.lessonData,
+          algebra2_ch2_lesson2.lessonData,
+          algebra2_ch2_lesson3.lessonData
+        ]
+      },
+      {
+        id: 'quadratic-functions',
+        title: 'Module 3: Quadratic Functions',
+        description: 'Study quadratic functions and their applications.',
+        lessons: [
+          algebra2_ch3_lesson1.lessonData
+        ]
+      },
+      {
+        id: 'exponential-functions',
+        title: 'Module 7: Exponential Functions',
+        description: 'Explore exponential functions and their properties.',
+        lessons: [
+          algebra2_ch7_lesson1.lessonData
+        ]
+      },
+      {
+        id: 'logarithmic-functions',
+        title: 'Module 8: Logarithmic Functions',
+        description: 'Study logarithmic functions as inverses of exponentials.',
+        lessons: [
+          algebra2_ch8_lesson1.lessonData
+        ]
+      },
+      {
+        id: 'rational-functions',
+        title: 'Module 9: Rational Functions',
+        description: 'Work with rational expressions and functions.',
+        lessons: [
+          algebra2_ch9_lesson1.lessonData
         ]
       }
     ]
