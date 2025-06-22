@@ -1,5 +1,3 @@
-import { CurriculumLesson } from './index';
-
 export interface CurriculumLesson {
   id: string;
   title: string;

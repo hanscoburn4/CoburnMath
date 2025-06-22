@@ -38,7 +38,7 @@ export const MathRenderer: React.FC<MathRendererProps> = ({
   return <div ref={mathRef} className={className} />;
 };
 
-function processLatexContent(content: string, defaultInline: boolean): string {
+function processLatexContent(content: string, _defaultInline: boolean): string {
   // Replace display math ($$...$$)
   content = content.replace(/\$\$(.*?)\$\$/g, (match, latex) => {
     try {
