@@ -75,7 +75,7 @@ function App() {
   const getHeaderSubtitle = () => {
     switch (appState.currentView) {
       case 'courses':
-        return 'Structured learning with thinking tasks, guided examples, and practice problems';
+        return 'Learning with thinking tasks and practice problems';
       case 'chapters':
         return 'Select a chapter to begin your learning journey';
       case 'lessons':
